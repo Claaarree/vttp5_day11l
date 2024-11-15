@@ -45,7 +45,7 @@ public class StudentController {
         epochDob, "damienl@nus.edu.sg", "25 HMKT 119615");
         students.add(s3);
 
-        //convert epoch Long to Date (this doesn't work oops)
+        //convert epoch Long to Date
         //Long epochTime = 188103300000L;
         // Date dTime = new Date(epochTime);
         // String formattedTime = sdf.format(dTime);
